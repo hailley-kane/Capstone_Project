@@ -1,7 +1,8 @@
 import {useRef, useState, useEffect} from "react";
 import {faCheck, faTimes, faInfoCircle} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import axios from './api/axios';
+import axios from "./api/axios"
+import './index.css';
 
 const USER_REGEX = /^[a-zA-Z][a-zA-Z0-9-_]{3,23}$/; //4 to 20 chars for the username
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
