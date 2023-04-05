@@ -18,7 +18,11 @@ const App = () => {
               <Route path='/exercise/:id' element={<ExerciseDetail />}/>
           </Routes>
           <Footer />
+          <Register/>
+          <Login/>
     </Box>
+    
+  
   )
 }
 
