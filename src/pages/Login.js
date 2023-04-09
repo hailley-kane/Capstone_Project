@@ -1,7 +1,8 @@
 import {useRef, useState, useEffect} from 'react';
 import './index.css';
 import {Link} from 'react-router-dom'
-const Login = () => {
+
+function Login () {
     const userRef = useRef(); 
     const errRef = useRef();
 
@@ -9,7 +10,7 @@ const Login = () => {
     const [user, setUser] = useState('');
     const[pwd, setPwd] = useState('');
     const[errMsg, setErrMsg] = useState('');
-    
+
     //Shows the success state
     const[success, setSuccess] = useState(false);
 
@@ -21,6 +22,8 @@ const Login = () => {
     useEffect(() =>{
         setErrMsg('');
     }, [user, pwd])
+
+
     //Handle submit function
     const handleSubmit = async (e) =>{
         e.preventDefault();
@@ -31,6 +34,7 @@ const Login = () => {
         setSuccess(true);
         
     }
+   
 
     return(
         <>

@@ -57,43 +57,11 @@ const REGISTER_URL = '/register';
     }, [user, pwd, matchPwd])
 
     //Function to handle submit 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) =>{
         e.preventDefault();
-        //Protects if button enabled with JS hack
-        const v1 = USER_REGEX.test(user);
-        const v2 = PWD_REGEX.test(pwd);
-        if(!v1 || !v2){
-            setErrMsg("Invalid Entry");
-            return;
-        }
-        /*This is where i will need the back end to save data to api
-        but for now ill just print the username password and if registration was succesful.
-        console.log(user,pwd);
-        setSuccess(true);*/
-        //Back end : try and ctach block
-        try{
-            const response = await axios.post(REGISTER_URL
-                , JSON.stringify({user, pwd}), 
-                {
-                headers : {'Content-Type': 'application/json'},
-                withcredentials: true
-                }
-            );
-            console.log(response.data);
-            console.log(response.accessToken);
-            console.log(JSON.stringify(response))
-            setSuccess(true);
-            //clear input fileds
-        }catch(err){
-            if(!err?.response){
-                setErrMsg('No Server Response');
-            }else if(err.response?.status === 409){
-                setErrMsg('Username Taken');
-            }else{
-                setErrMsg('Registration Failed');
-            }
-            errRef.current.focus();
-        }
+        axios.post('http://localhost:3003/Register', {user, pwd})
+        .then(res=> console.log("Registered Successfully"))
+        .catch(err => console.log(err));
     }
 
     return(
