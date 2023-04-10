@@ -1,0 +1,43 @@
+{
+    "Losing Weight": {
+        "Summary": "PPL",
+        "Monday": {
+            "0": "Pull Down: 3 x 12 reps",
+            "1": "Dumbbell Incline Bench Press: 3 x 12 reps",
+            "2": "Cable Lateral Raise: 3 x 15 reps",
+            "3": "Seated Cable Row: 3 x 12 reps",
+            "4": "Dumbbell Curls: 2 x 12 reps",
+            "5": "Tricep Overhead Extension: 2 x 12 reps",
+            "6": "Machine Curls: 2 x 12 reps",
+            "7": "Rope Pressdown: 2 x 12 reps"
+        },
+        "Tuesday": "Pull",
+        "Wednesday": "Legs",
+        "Thursday": "Push",
+        "Friday": "Pull",
+        "Saturday": "Legs",
+        "Sunday": "Rest"
+    },
+
+    "Maintaining Weight": {
+        "Summary": "Basic Four Day",
+        "Monday": "Back",
+        "Tuesday": "Rest",
+        "Wednesday": "Chest",
+        "Thursday": "Rest",
+        "Friday": "Arms",
+        "Saturday": "Rest",
+        "Sunday": "Legs"
+    }, 
+
+    "Gaining Weight": {
+        "Summary": "Upper/Lower",
+        "Monday": "Upper",
+        "Tuesday": "Lower",
+        "Wednesday": "Rest",
+        "Thursday": "Upper",
+        "Friday": "Lower",
+        "Saturday": "Rest",
+        "Sunday": "Rest"
+    }
+}
