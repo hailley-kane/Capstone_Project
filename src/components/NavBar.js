@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Stack} from '@mui/material';
+import "../pages/index.css";
 
 import Logo from '../assets/images/Logo.png';
 
@@ -13,7 +14,7 @@ const NavBar = () =>
       </Link>
       <Stack direction={'row'} gap={'40px'} fontSize={'24px'} alignItems={'flex-end'}>
         <Link to='/' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Home</Link>
-        <a href="#exercises" style={{textDecoration: 'none', color: '#3A1212'}}>Exercises</a>
+        <Link to = '/workouts' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Workouts</Link>
         <Link to = '/Register' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Create Account</Link>
         <Link to = '/Login' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Sign In</Link>
       </Stack>
