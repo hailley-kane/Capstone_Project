@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import CalorieTracker from './pages/CalorieTracker';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/exercise/:id' element={<ExerciseDetail />}/>
+              <Route path = '/CalorieTracker' element={<CalorieTracker/>}/>
           </Routes>
           <Footer />
           <Register/>
