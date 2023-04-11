@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Quiz from "./pages/Quiz/Quiz";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
               <Route path='/exercise/:id' element={<ExerciseDetail />}/>
               <Route path = '/Register' element = {<Register/>} />
               <Route path = '/Login' element = {<Login/>} />
+              <Route path = '/Quiz' element = {<Quiz/>}/>
           </Routes>
           <Footer />
     </Box>
