@@ -10,7 +10,7 @@ const Home = () =>
   const [exercises, setExercises] = useState( [] );
 
   return (
-    <Box>
+    <Box class = "homepage">
       <HeroBanner />
       <SearchExercises
         setExercises={setExercises}

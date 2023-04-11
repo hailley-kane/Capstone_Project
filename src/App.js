@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import CalorieTracker from './pages/CalorieTracker';
+import Workouts from "./pages/Workouts";
 
 const App = () => {
   return (
@@ -18,10 +19,11 @@ const App = () => {
               <Route path='/' element={<Home />} />
               <Route path='/exercise/:id' element={<ExerciseDetail />}/>
               <Route path = '/CalorieTracker' element={<CalorieTracker/>}/>
+              <Route path = '/workouts' element = {<Workouts/>} />
+              <Route path = '/Register' element = {<Register/>} />
+              <Route path = '/Login' element = {<Login/>} />
           </Routes>
           <Footer />
-          <Register/>
-          <Login/>
     </Box>
     
   
