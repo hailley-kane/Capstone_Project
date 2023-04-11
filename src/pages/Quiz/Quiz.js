@@ -16,11 +16,11 @@ const Quiz = () => {
                 <h4>Age range:</h4>
                 <div className="option-container">
                     <p className="option">Less than 18</p>
-                    <p className="option">18-20</p>
+                    <p className="option">18-25</p>
                 </div>
                 <div className="option-container">
-                    <p className="option">20-30</p>
-                    <p className="option">Over 30</p>
+                    <p className="option">25-35</p>
+                    <p className="option">Over 35</p>
                 </div>
                
                 <h4>Weight: </h4>

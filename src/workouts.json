@@ -1,0 +1,153 @@
+{
+    "Losing Weight": {
+        "Monday": {
+            "Summary": "Upper Body Focused",
+            "0": "Pull Down: 3 x 12 reps",
+            "1": "Dumbbell Incline Bench Press: 3 x 12 reps",
+            "2": "Cable Lateral Raise: 3 x 15 reps",
+            "3": "Seated Cable Row: 3 x 12 reps",
+            "4": "Dumbbell Curls: 2 x 12 reps",
+            "5": "Tricep Overhead Extension: 2 x 12 reps",
+            "6": "Machine Curls: 2 x 12 reps",
+            "7": "Rope Pressdown: 2 x 12 reps"
+        },
+        "Tuesday": {
+            "0": "Walking, Running, or Swimming: 60 mins"
+        },
+        "Wednesday": {
+            "Summary": "Cardio, Abs, Glutes",
+            "0": "Planks: 3 x 30 sec",
+            "1": "Bodyweight Glute Bridges: 3 x 15 reps",
+            "2": "Ab Crunch: 3 x 20 reps",
+            "3": "Glute Kickback: 3 x 12 reps",
+            "4": "Mountain Climbers: 3 x 12 each leg",
+            "5": "Side Lying Clams: 3 x 12 each leg",
+            "6": "Oblique Crunch: 3 x 12 each leg"
+        },
+        "Thursday": {
+            "0": "Walking, Running, or Swimming: 60 mins"
+        },
+        "Friday": {
+            "Summary": "Lower Body Focused",
+            "0": "Reverse Hack Squat: 3 x 12 reps",
+            "1": "Leg Press: 3 x 12 reps",
+            "2": "Leg Extension: 3 x 15 reps",
+            "3": "Leg Curls: 3 x 15 reps",
+            "4": "Standing Calf Raises: 3 x 25 reps"
+        },
+        "Saturday": {
+            "0": "Walking, Running, or Swimming: 60 mins"
+        },
+        "Sunday": {
+            "0": "Walking, Running, or Swimming: 60 mins"
+        }
+    },
+
+    "Maintaining Weight": {
+        "Monday": {
+            "Summary": "Full Body Strength Training",
+            "0": "Goblet Squat: 3 x 10-12 reps",
+            "1":"Dumbbell Bench Press: 3 x 10-12 reps",
+            "2": "Cable Row: 3 x 10-12 reps",
+            "3": "Dumbbell Stiff Leg Deadlift: 3 x 10-12 reps",
+            "4": "Hip Thrust: 3 x 10-12 reps"
+        },
+        "Tuesday": {
+            "0": "Walking, Running, or Swimming: 60 mins"
+        },
+        "Wednesday": {
+            "Summary": "Full Body Strength Training",
+            "0": "Trap Bar Deadlift: 3 x 10-12 reps",
+            "1": "Dips: 3 x 10-12 reps",
+            "2": "Pull Ups: 3 x 10-12 reps",
+            "3": "Landmine Squat: 3 x 10-12 reps",
+            "4": "Planks: 3 x 30 sec"
+        },
+        "Thursday": {
+            "0": "Walking, Running, or Swimming: 60 mins"
+        },
+        "Friday": {
+            "Summary": "Full Body Strength Training",
+            "0": "Dumbbell Shoulder Press: 3 x 10-12 reps",
+            "1": "Lat Pulldown: 3 x 10-12 reps",
+            "2": "Push Ups: 3 x 10-12 reps",
+            "3": "Barbell Lunge: 3 x 10-12 reps",
+            "4": "Hyperextensions: 3 x 10-12 reps"
+        },
+        "Saturday": {
+            "0": "Walking, Running, or Swimming: 60 mins"
+        },
+        "Sunday": "Rest"
+    }, 
+
+    "Gaining Weight": {
+        "Monday": {
+            "Summary": "Upper Body Focused",
+            "0": "Pull Down: 3 x 12 reps",
+            "1": "Dumbbell Incline Bench Press: 3 x 12 reps",
+            "2": "Cable Lateral Raise: 3 x 15 reps",
+            "3": "Seated Cable Row: 3 x 12 reps",
+            "4": "Dumbbell Curls: 2 x 12 reps",
+            "5": "Tricep Overhead Extension: 2 x 12 reps",
+            "6": "Machine Curls: 2 x 12 reps",
+            "7": "Rope Pressdown: 2 x 12 reps"
+        },
+        "Tuesday": {
+            "Summary": "Lower Body Focused",
+            "0": "Barbell Squat: 3 x 12 reps",
+            "1": "Romanian Deadlift: 4 x 10 reps",
+            "2": "Walking Lunge: 3 x 15 each leg",
+            "3": "Bodyweight Curtsy Lunge: 3 x 12 each leg",
+            "4": "Glute Kickback: 3 x 15 each leg"
+        },
+        "Wednesday": {
+            "Summary": "Cardio, Abs, Glutes",
+            "0": "Planks: 3 x 30 sec",
+            "1": "Bodyweight Glute Bridges: 3 x 15 reps",
+            "2": "Ab Crunch: 3 x 20 reps",
+            "3": "Glute Kickback: 3 x 12 reps",
+            "4": "Mountain Climbers: 3 x 12 each leg",
+            "5": "Side Lying Clams: 3 x 12 each leg",
+            "6": "Oblique Crunch: 3 x 12 each leg"
+        },
+        "Thursday": {
+            "Summary": "Upper Body Focused",
+            "0": "Dumbbell Row: 4 x 12 reps",
+            "1": "Seated Shoulder Press: 3 x 12 reps",
+            "2": "Cable Face Pulls: 3 x 12 reps",
+            "3": "Dumbbell Bench Press: 3 x 12 reps",
+            "4": "Close Grip Pulldown: 3 x 15 reps",
+            "5": "Seated Curls: 3 x 12 reps",
+            "6": "Lying Tricep Extensions: 3 x 12 reps"
+        },
+        "Friday": {
+            "Summary": "Lower Body Focused",
+            "0": "Reverse Hack Squat: 3 x 12 reps",
+            "1": "Leg Press: 3 x 12 reps",
+            "2": "Leg Extension: 3 x 15 reps",
+            "3": "Leg Curls: 3 x 15 reps",
+            "4": "Standing Calf Raises: 3 x 25 reps"
+        },
+        "Saturday": {
+            "Summary": "Upper Body Focused",
+            "0": "Pull Down: 3 x 12 reps",
+            "1": "Dumbbell Incline Bench Press: 3 x 12 reps",
+            "2": "Cable Lateral Raise: 3 x 15 reps",
+            "3": "Seated Cable Row: 3 x 12 reps",
+            "4": "Dumbbell Curls: 2 x 12 reps",
+            "5": "Tricep Overhead Extension: 2 x 12 reps",
+            "6": "Machine Curls: 2 x 12 reps",
+            "7": "Rope Pressdown: 2 x 12 reps"
+        },
+        "Sunday": {
+            "Summary": "Cardio, Abs, Glutes",
+            "0": "Planks: 3 x 30 sec",
+            "1": "Bodyweight Glute Bridges: 3 x 15 reps",
+            "2": "Ab Crunch: 3 x 20 reps",
+            "3": "Glute Kickback: 3 x 12 reps",
+            "4": "Mountain Climbers: 3 x 12 each leg",
+            "5": "Side Lying Clams: 3 x 12 each leg",
+            "6": "Oblique Crunch: 3 x 12 each leg"
+        }
+    }
+}
