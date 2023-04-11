@@ -69,9 +69,9 @@ const REGISTER_URL = '/register';
             {success ?(
                     <section>
                         <h1>Success!</h1>
-                        <p>
-                            <a href="#">Sign In</a>
-                        </p>
+                        <button>
+                            <Link to="/Quiz">Take our Workout Quiz</Link>
+                        </button>
                     </section>
                 
                 ) : (
