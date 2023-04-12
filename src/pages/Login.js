@@ -27,11 +27,25 @@ function Login () {
     //Handle submit function
     const handleSubmit = async (e) =>{
         e.preventDefault();
+        try {
+            const response = await fetch('http://localhost:3000/login', {
+            method: 'POST',
+            headers: {
+            'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({username: user, password: pwd})
+            });
+            const data = await response.json();
+            console.log(data);
         /*Next four lines are just to make sure code work it is still not linked to the back end*/
         console.log(user, pwd);
         setUser(''); //once submitted it will clear the username and pwd components
         setPwd('');
         setSuccess(true);
+    } catch (error) {
+        console.error(error);
+        setErrMsg('Failed to login. Please try again.');
+        }
         
     }
    

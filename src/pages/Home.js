@@ -9,6 +9,19 @@ const Home = () =>
   const [bodyPart, setBodyPart] = useState( 'all' );
   const [exercises, setExercises] = useState( [] );
 
+  useEffect(() => {
+    fetch('/exercises')
+      .then(response => response.json())
+      .then(data => setExercises(data));
+  }, []);
+
+  const handleSearch = (searchParams) => {
+    fetch(`/exercises?bodyPart=${searchParams.bodyPart}`)
+      .then(response => response.json())
+      .then(data => setExercises(data));
+    setBodyPart(searchParams.bodyPart);
+  };
+  
   return (
     <Box class = "homepage">
       <HeroBanner />

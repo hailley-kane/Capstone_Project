@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import {Box, Stack, Typography} from '@mui/material';
 import "../workouts.json"
 
@@ -5,6 +6,25 @@ import "../workouts.json"
 
 //I have this set up right now so that we can display their workout routine for each day of the week for whatever their plan may be. Underneath that it should show alternative options
 //for them. Peoples plans/goals change so they should have a way to evaluate whats best for them.
+//allow connection to database/backend
+/*const Workouts = () => {
+  const [workouts, setWorkouts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('http://localhost:5000/api/workouts')
+      .then(res => res.json())
+      .then(data => {
+        setWorkouts(data);
+        setLoading(false);
+      })
+      .catch(err => console.log(err));
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+*/
 const Workouts = () => {
 
     const workouts = require('../workouts.json');
