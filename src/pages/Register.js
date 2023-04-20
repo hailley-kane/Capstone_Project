@@ -9,8 +9,9 @@ const USER_REGEX = /^[a-zA-Z][a-zA-Z0-9-_]{3,23}$/; //4 to 20 chars for the user
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 
 //set const url
-const REGISTER_URL = '/register';
- const Register = () => {
+const REGISTER_URL = 'http://localhost:3003/register';
+ 
+const Register = () => {
     const userRef = useRef(); //get users import
     const errRef = useRef(); //error input
 
@@ -59,7 +60,7 @@ const REGISTER_URL = '/register';
     //Function to handle submit 
     const handleSubmit = (e) =>{
         e.preventDefault();
-        axios.post('http://localhost:3003/Register', {user, pwd})
+        axios.post(REGISTER_URL, {user, pwd})
         .then(res=> console.log("Registered Successfully"))
         .catch(err => console.log(err));
     }
