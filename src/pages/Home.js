@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useRef, useState, useEffect} from 'react';
 import {Box} from '@mui/material';
 import Exercises from '../components/Exercises';
 import SearchExercises from '../components/SearchExercises';
