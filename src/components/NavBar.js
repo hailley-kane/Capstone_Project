@@ -19,6 +19,7 @@ const NavBar = () =>
         <Link to = '/workouts' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Workouts</Link>
         <Link to = '/Register' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Create Account</Link>
         <Link to = '/Login' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Sign In</Link>
+        <Link to = '/Quiz' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Quiz</Link>
       </Stack>
     </Stack>
   );
