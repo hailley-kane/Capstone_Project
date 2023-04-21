@@ -15,6 +15,7 @@ h1.quiz{
     font-size: 50px;
     color: white;
 }
+
 h4.quiz{
     font-family: 'Nunito', sans-serif;
     font-size: 30px;
@@ -66,16 +67,15 @@ h4.quiz{
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0,14), 0 3px 1px -2p rgba(0,0,0,0,12), 0 1px 5px 0 rgba(0,0,0,0,0.2);
     transition: 0.2s linear all;
    
-    
-
 }
+
+
 .button-container button:first-child:hover{
     background-color: darken(green, 20%);
     
 }
 
 input[id = 'height'],
-button,
 textarea{
     display: flex;
     margin: 0 auto 1.5rem auto;
@@ -87,7 +87,6 @@ textarea{
     border:none;
 }
 input[id = 'weight'],
-button,
 textarea{
     display: flex;
     margin: 0 auto 1.5rem auto;
@@ -99,7 +98,6 @@ textarea{
     border:none;
 }
 input[id = 'weight-goal'],
-button,
 textarea{
     display: flex;
     margin: 0 auto 1.5rem auto;
@@ -110,6 +108,27 @@ textarea{
     width: 70%;
     border:none;
 }
-
+input[id = 'limitation'],
+textarea{
+    display: flex;
+    margin: 0 auto 1.5rem auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    border-radius: 0rem;
+    padding: 1rem;
+    width: 70%;
+    border:none;
+}
+input[id = 'restrictions'],
+textarea{
+    display: flex;
+    margin: 0 auto 1.5rem auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    border-radius: 0rem;
+    padding: 1rem;
+    width: 70%;
+    border:none;
+}
 
 
