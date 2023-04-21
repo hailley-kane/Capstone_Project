@@ -1,4 +1,3 @@
-import { getOverlayAlpha } from "@mui/material";
 import {faCheck, faTimes, faInfoCircle} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import '../Quiz/Quiz.css'
@@ -7,7 +6,7 @@ import {useRef, useState, useEffect} from 'react';
 //Gender and age are multiple choice
 const WEIGHT_REGEX = /^[0-9]{1,3}$/
 const HEIGHT_REGEX = /^([0-9]{1,3})+('[0-9]{1,3})+(")$/
-const LIMITATIONS_REGEX = /^[a-zA-Z]{1,23}$/;
+const LIMITATIONS_REGEX = /^[a-zA-Z/]{1,23}$/;
 
 const Quiz = () => {
     const userRef = useRef(); 
@@ -16,10 +15,15 @@ const Quiz = () => {
     const[errMsg, setErrMsg] = useState('');
     //Gender 
     const [gender, setGender] = useState('');
+    useEffect(() => {
+        console.log(gender);
+    }, [gender])
 
     //Age
     const [age, setAge] = useState('');
-
+    useEffect(() => {
+        console.log(age);
+    }, [age])
 
     //Weight
     const [weight, setWeight] = useState('');
@@ -62,16 +66,28 @@ const Quiz = () => {
 
     //Activity level
     const [activityLevel, setActivityLevel] = useState('');
-
+    useEffect(() => {
+        console.log(activityLevel);
+    }, [activityLevel])
 
     //Goal
     const [goal, setGoal] = useState('');
+    useEffect(() => {
+        console.log(goal);
+    }, [goal])
 
     //Workout location option
     const [workoutLocation, setWorkoutLocation] = useState('');
+    useEffect(() => {
+        console.log(workoutLocation);
+    }, [workoutLocation])
+
 
     //Workout Preferance 
     const [workoutPreferance, setWorkoutPreferance] = useState('');
+    useEffect(() => {
+        console.log(workoutPreferance);
+    }, [workoutPreferance])
 
     //Limitations 
     const [limitation, setLimitation] = useState('');
@@ -106,14 +122,10 @@ const Quiz = () => {
 
     const handleSubmit = async (e) =>{
         e.preventDefault();
-        try {
-            const response = await fetch('http://localhost:3000/Quiz', {
-            method: 'POST',
-            headers: {
-            'Content-Type': 'application/json'
-            },
+        
+            
             //body: JSON.stringify({username: user, password: pwd})
-            });
+            
             //const data = await response.json();
             //console.log(data);
         /*Next four lines are just to make sure code work it is still not linked to the back end*/
@@ -130,11 +142,8 @@ const Quiz = () => {
         setLimitation('');
         setDiet('');
         setSuccess(true);
-    } catch (error) {
-        console.error(error);
-        setErrMsg('Failed to login. Please try again.');
-        }
         
+    
     }
     
     
@@ -142,7 +151,7 @@ const Quiz = () => {
     return (
         <html >
             <h1 className="quiz">Personal Quiz</h1>
-            <form onSubmit = {handleSubmit}>
+            <form onSubmit={handleSubmit}>
                 <div className='questions'>
 
                     <h4 className="quiz">Gender:</h4>
