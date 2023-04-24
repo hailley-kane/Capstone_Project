@@ -63,6 +63,8 @@ const Register = () => {
         axios.post(REGISTER_URL, {user, pwd})
         .then(res=> console.log("Registered Successfully"))
         .catch(err => console.log(err));
+        setSuccess(true);
+
     }
 
     return(
