@@ -1,31 +1,10 @@
-const express = require('express')
-const mysql = require('mysql')
-const cors = require("cors")
+const express = require('express');
 
-const app = express()
+const app = express();
 
-app.use(cors());
-
-app.use(express.json());
-
-const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    pwd: '',
-    database: 'signup'
-})
-app.post('/Resgiter', (req, res)=>{
-    const sql = "INSERT INTO login('user','password')Values(?)";
-    const values = [
-        req.body.user,
-        req.body.pwd,
-    ]
-    db.query(sql, [values] , (err, data) => {
-        if(err) return res.json(err);
-        return res.json(data);
-    })
+app.get("/api", (req, res) => {
+    res.json({"users": ["userOne", "userTwo", "userThree"]})
 })
 
-app.listen(3003, () => {
-    console.log("listening...");
-})
+
+app.listen(3000, () => {console.log("Express started one port 5000")})
