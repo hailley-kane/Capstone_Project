@@ -9,7 +9,7 @@ const Footer = () =>
       <Stack gap={'40px'} sx={{alignItems: 'center'}} flexWrap={'wrap'} px={'40px'} pt={'24px'}>
         <img src={Logo} alt={'logo'} style={{width: '1200px', height: '250px'}} />
       </Stack>
-      <Typography variant='h5' sx={{fontSize: {lg: '28px', xs: '20px'}}} mt={'41px'} textAlign={'center'} pb={'40px'}>
+      <Typography variant='h5' sx={{fontSize: {lg: '28px', xs: '20px'}}} mt={'41px'} textAlign={'center'} pb={'40px'} color={'black'}>
         Made by Capstone Team 3
       </Typography>
     </Box>
