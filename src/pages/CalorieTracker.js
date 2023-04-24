@@ -44,10 +44,12 @@ const CalorieTracker = () => {
 	};
 
 	const total = meals.map((meal)=>meal.calories).reduce((acc,value)=>acc + +value,0);
+	//will need to connect to quiz for correct calories
+	const remainingTotal = 2000-total;
 	
 return (
 	<div>
-		<AppControlsCounter total = {total}/>
+		<AppControlsCounter total = {total} remainingTotal = {remainingTotal}/>
 		<AppControlsDelete deleteAllMeals = {deleteAllMeals}/>
 		<AppControlsInput addMealsHandler = {addMealsHandler} mealName = {mealName} calories = {calories}
 		setMealName = {setMealName} setCalories = {setCalories}
