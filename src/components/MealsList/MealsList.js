@@ -2,7 +2,8 @@ import React from "react";
 
 const MealsList = ({meals, deleteMealHandler}) =>{
 
-    
+    //displays meals and calories in a table
+    //also contains the delete button for single meal
     return(
         <div className = "meals_container_wrapper">
             {meals.map((meals,index)=>(

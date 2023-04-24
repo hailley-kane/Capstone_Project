@@ -1,7 +1,7 @@
 import {useRef, useState, useEffect} from 'react';
 import './index.css';
 import {Link} from 'react-router-dom'
-import {userSchema} from './user_schema.js';
+//import {userSchema} from './user_schema.js';
 
 function Login () {
     const userRef = useRef(); 

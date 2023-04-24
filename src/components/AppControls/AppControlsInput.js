@@ -1,10 +1,11 @@
 import React from "react";
 
 const AppControlsInput = ({addMealsHandler,calories,mealName,setCalories,setMealName}) => {
-
+    //button to add meals to log
     const onAddMealsClick = () =>{
         addMealsHandler();
     };
+    //user input of meal (text) and calories (number)
     return(
         <div className = "app_controls">
             <div className="app_controls_inputs">
