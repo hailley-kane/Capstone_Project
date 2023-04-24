@@ -47,6 +47,7 @@ form {
     justify-content: space-evenly;
     flex-grow: 1;
     padding-bottom: 1rem;
+    text-align: center;
 }
 
 a, a:visited {
