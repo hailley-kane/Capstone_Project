@@ -21,3 +21,4 @@ const MealsList = ({meals, deleteMealHandler}) =>{
 };
 
 export default MealsList
+
