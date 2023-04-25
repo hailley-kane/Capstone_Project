@@ -15,6 +15,7 @@ const NavBar = () =>
       <Stack direction={'row'} gap={'40px'} fontSize={'24px'} alignItems={'flex-end'}>
         <Link to='/' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Home</Link>
         <Link to = '/CalorieTracker' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Calories</Link>
+        <Link to = '/WorkoutProgress' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Progress</Link>
         <Link to = '/workouts' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Workouts</Link>
         <Link to = '/Register' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Create Account</Link>
         <Link to = '/Login' style={{textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'}}>Sign In</Link>
