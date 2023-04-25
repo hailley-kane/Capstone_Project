@@ -92,7 +92,7 @@ function Login () {
 
                     </form>
                     <p>
-                        Need an Acoount?<br/>
+                        Need an Account?<br/>
                         <span className="line">
                             
                             <Link to="/Register">Sign Up</Link>

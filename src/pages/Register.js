@@ -72,8 +72,8 @@ const Register = () => {
             {success ?(
                     <section>
                         <h1>Success!</h1>
-                        <button>
-                            <Link to="/Quiz">Take our Workout Quiz</Link>
+                        <button id = "quiz-link">
+                            <Link to="/Quiz" >Take our Workout Quiz</Link>
                         </button>
                     </section>
                 
@@ -134,7 +134,7 @@ const Register = () => {
                         <p id = "pwdnote" className= {pwdFocus && !validPwd ? "instructions": "offscreen"}>
                             <FontAwesomeIcon icon= {faInfoCircle} />
                             8 to 24 characters.<br />
-                            Must include uppercase and lowercase letters, a number and a spacial character.<br />
+                            Must include uppercase and lowercase letters, a number and a special character.<br />
                             Allowed special characters :
                             <span aria-label = 'exclamation mark'>!</span>
                             <span aria-label = 'at symbol'>@</span>

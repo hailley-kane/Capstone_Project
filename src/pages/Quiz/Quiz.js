@@ -3,7 +3,6 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import '../Quiz/Quiz.css'
 import {useRef, useState, useEffect} from 'react';
 
-//Gender and age are multiple choice
 const WEIGHT_REGEX = /^[0-9]{1,3}$/
 const HEIGHT_REGEX = /^([0-9]{1,3})+('[0-9]{1,3})+(")$/
 const LIMITATIONS_REGEX = /^[a-zA-Z/]{1,23}$/;
