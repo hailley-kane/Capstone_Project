@@ -26,6 +26,7 @@ const App = () => {
               <Route path = '/WorkoutProgress' element = {<WorkoutProgress/>} />
               <Route path = '/Login' element = {<Login/>} />
               <Route path = '/Quiz' element = {<Quiz/>}/>
+              <Route path = '/recipe' element = {<recipe/>}/>
           </Routes>
           <Footer />
     </Box>
