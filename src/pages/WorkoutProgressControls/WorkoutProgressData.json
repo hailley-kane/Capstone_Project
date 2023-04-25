@@ -1,0 +1,42 @@
+[
+    {
+      "id":1,
+      "date": "2023-01-23",
+      "workout": "Cardio - Running",
+      "duration": "15 minutes",
+      "setsandreps": "N/A",
+      "weight": "N/A"
+    },
+    {
+        "id":2,
+        "date": "2023-01-24",
+        "workout": "Hammer Curls",
+        "duration": "N/A",
+        "setsandreps": "3 - 10",
+        "weight": "10 lbs"
+    },
+    {
+        "id":3,
+        "date": "2023-01-25",
+        "workout": "Cardio",
+        "duration": "17 minutes",
+        "setsandreps": "N/A",
+        "weight": "N/A"
+    },
+    {
+        "id":4,
+        "date": "2023-01-26",
+        "workout": "Hammer Curls",
+        "duration": "N/A",
+        "setsandreps": " 3 - 12",
+        "weight": "12 lbs"
+    },
+    {
+        "id":5,
+        "date": "2023-01-27",
+        "workout":"Cardio - Walking",
+        "duration": "15 minutes",
+        "setsandreps": "N/A",
+        "weight": "N/A"
+    }
+  ]
