@@ -12,6 +12,8 @@ import Quiz from "./pages/Quiz/Quiz";
 import CalorieTracker from './pages/CalorieTracker';
 import Workouts from "./pages/Workouts";
 import WorkoutProgress from "./pages/WorkoutProgress";
+//import Recipe from "./pages/recipe";
+// <Route path = '/Recipe' element = {<Recipe/>}/>
 
 const App = () => {
   return (
@@ -26,7 +28,6 @@ const App = () => {
               <Route path = '/WorkoutProgress' element = {<WorkoutProgress/>} />
               <Route path = '/Login' element = {<Login/>} />
               <Route path = '/Quiz' element = {<Quiz/>}/>
-              <Route path = '/recipe' element = {<Recipe/>}/>
           </Routes>
           <Footer />
     </Box>
